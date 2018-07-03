@@ -4,6 +4,7 @@ import (
 	"github.com/docker/libnetwork/drvregistry"
 	"github.com/docker/libnetwork/ipamapi"
 	builtinIpam "github.com/docker/libnetwork/ipams/builtin"
+	dhcpIpam "github.com/docker/libnetwork/ipams/dhcp"
 	nullIpam "github.com/docker/libnetwork/ipams/null"
 	remoteIpam "github.com/docker/libnetwork/ipams/remote"
 	"github.com/docker/libnetwork/ipamutils"
